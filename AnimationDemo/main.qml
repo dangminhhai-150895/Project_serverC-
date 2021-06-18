@@ -59,5 +59,12 @@ Window {
                 root.running = false
             }
         }
+        Rectangle{
+            id: hainguyet
+            width: 200
+            height: 300
+            color: "red"
+        }
+
     }
 }
