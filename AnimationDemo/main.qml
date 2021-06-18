@@ -61,10 +61,21 @@ Window {
         }
         Rectangle{
             id: hainguyet
+            x: 100
+            y: 200
             width: 200
             height: 300
             color: "red"
+            MouseArea{
+                anchors.fill: parent
+                onClicked: {
+                    hainguyet.color = "green"
+                }
+            }
         }
+
+
+
 
     }
 }
